@@ -438,6 +438,11 @@
 									<fail>true</fail>
 								</configuration>
 							</execution>
+              <execution>
+                <!-- allow snapshots during iast phase. This id comes from the parent -->
+                <id>enforce-java</id>
+                <phase>none</phase>
+              </execution>
 						</executions>
 					</plugin>
 
